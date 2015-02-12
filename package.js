@@ -1,6 +1,6 @@
 Package.describe({
   name: 'spectrum:mqtt',
-  version: '0.0.2',
+  version: '0.0.3',
   summary: 'MQTT library for Meteor',
   git: 'https://github.com/acidsound/meteor-mqtt.git',
   documentation: 'README.md'
