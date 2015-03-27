@@ -1,6 +1,6 @@
 Package.describe({
   name: 'spectrum:mqtt',
-  version: '0.0.3',
+  version: '0.0.4',
   summary: 'MQTT library for Meteor',
   git: 'https://github.com/acidsound/meteor-mqtt.git',
   documentation: 'README.md'
@@ -12,6 +12,7 @@ Npm.depends({
 
 Package.onUse(function(api) {
   api.versionsFrom('1.0');
+  api.addFiles('browserMqtt.js', 'client');
   api.addFiles('mqtt.js', 'server');
   api.export('mqtt');
 });
